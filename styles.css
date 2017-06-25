@@ -77,3 +77,8 @@ a:hover {
 a:focus {
     color: blue;
 }
+
+::selection {
+    background-color: blue;
+    color: white;
+}
