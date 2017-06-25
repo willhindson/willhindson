@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+* ,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+
+    background-color: black;
+
+    font-family: 'GTHaptik', sans-serif;
+    font-feature-settings: "ss01";
+    color: white;
+}
+
+@font-face {
+    font-family: 'GTHaptik';
+    src: url('fonts/GT-Haptik-Bold.eot');
+    src: url('fonts/GT-Haptik-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GT-Haptik-Bold.woff') format('woff'),
+         url('fonts/GT-Haptik-Bold.ttf') format('truetype'),
+         url('fonts/GT-Haptik-Bold.svg#Haptik') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTHaptik';
+    src: url('fonts/GT-Haptik-Bold-Oblique.eot');
+    src: url('fonts/GT-Haptik-Bold-Oblique.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GT-Haptik-Bold-Oblique.woff') format('woff'),
+         url('fonts/GT-Haptik-Bold-Oblique.ttf') format('truetype'),
+         url('fonts/GT-Haptik-Bold-Oblique.svg#Haptik') format('svg');
+    font-weight: 700;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'GTHaptik';
+    src: url('fonts/GT-Haptik-Bold-Rotalic.eot');
+    src: url('fonts/GT-Haptik-Bold-Rotalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GT-Haptik-Bold-Rotalic.woff') format('woff'),
+         url('fonts/GT-Haptik-Bold-Rotalic.ttf') format('truetype'),
+         url('fonts/GT-Haptik-Bold-Rotalic.svg#Haptik') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 30vw;
+    line-height: 1;
+    text-indent: -2vw;
+}
+
+p {
+    font-size: 5vw;
+}
+
+a {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: blue;
+}
+a:focus {
+    color: blue;
+}
